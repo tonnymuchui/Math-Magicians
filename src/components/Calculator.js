@@ -12,8 +12,8 @@ class Calculator extends Component {
     const { total, next, operation } = this.state;
     return (
 
-      <div className="calculate-app">
-        <div className="calculator-container">
+      <div className="app">
+        <div className="calculator">
           <div className="display">
             { total}
             {operation}

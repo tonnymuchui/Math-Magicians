@@ -1,64 +1,50 @@
-root {
-  --primary: #e6e6e6;
-  --secondary: #888;
-  --tertiary: darkgoldenrod;
-  --white: #fff;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Fira Sans", sans-serif;
-}
-
 body {
-  background-color: var(--white);
+  background-color: #fff;
 }
 
-.calculate-app {
+.app {
   display: flex;
-  min-height: 100vh;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
 }
 
-.calculator-container {
+.calculator {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 4px;
   overflow: hidden;
-  box-shadow: 0 2px 64px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .display {
   padding: 20px;
   text-align: right;
-  background-color: var(--secondary);
-  color: var(--white);
-  font-size: 30px;
-  font-weight: 400;
+  background-color: #888;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .display span {
-  font-size: 14px;
-  color: var(--white);
+  font-size: 20px;
+  color: #fff;
 }
 
 button {
   appearance: none;
   border: none;
   outline: none;
-  color: var(--primary);
-  font-size: 16px;
-  padding: 20px;
+  color: #e6e6e6;
+  font-size: 20px;
+  padding: 16px;
   cursor: pointer;
   transition: 0.2s;
 }
 
 button:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .operators {
@@ -69,8 +55,8 @@ button:hover {
 
 .operators button {
   flex: 1 1 0%;
-  background-color: var(--tertiary);
-  font-weight: 700;
+  background-color: darkgoldenrod;
+  font-weight: 800;
 }
 
 .numbers {
@@ -80,7 +66,7 @@ button:hover {
 
 .numbers button {
   flex: 1 1 33.333%;
-  background-color: var(--primary);
+  background-color: #e6e6e6;
   color: black;
-  border: 1px solid var(--primary);
+  border: 1px solid #e6e6e6;
 }
