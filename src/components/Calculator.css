@@ -1,4 +1,4 @@
-:root {
+root {
   --primary: #e6e6e6;
   --secondary: #888;
   --tertiary: darkgoldenrod;
@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 body {
