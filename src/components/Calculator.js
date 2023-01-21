@@ -16,6 +16,9 @@ const Calculator = () => {
 
   return (
     <div className="App">
+      <div className="Heading-2">
+        <h2> Let&#39;s do some math!</h2>
+      </div>
       <div className="calculator">
         <div className="display">
           {state.total}
