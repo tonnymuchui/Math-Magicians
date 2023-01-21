@@ -13,7 +13,9 @@ body {
   display: flex;
   min-height: 100vh;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
+  padding-right: 100px;
+  padding-bottom: 200px;
 }
 
 .calculator {
@@ -52,4 +54,65 @@ body {
 
 .amber {
   background-color: orange;
+}
+
+.press-btn.amber:hover {
+  background-color: peachpuff;
+}
+
+.press-btn:hover,
+.press-btn-1:hover,
+.press-btn-2:hover {
+  background-color: #d2d2d2;
+}
+
+.Heading {
+  padding: 20px 20px;
+}
+
+.Heading-2 {
+  justify-items: left;
+  margin-right: 656px;
+  margin-bottom: 314px;
+}
+
+.Heading-1 {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  padding-right: 50px;
+  margin-top: -50px;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  background-color: #d2d2d2;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.Description {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+.Description-q {
+  text-align: center;
+  padding: 250px;
+  width: 100%;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
