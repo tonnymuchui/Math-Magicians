@@ -72,12 +72,14 @@ body {
 
 .Heading-2 {
   justify-items: left;
-  margin-right: 300px;
-  margin-bottom: 310px;
+  margin-right: 656px;
+  margin-bottom: 314px;
 }
 
 .Heading-1 {
-  padding: 70px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 .nav-links {
@@ -103,8 +105,8 @@ body {
 
 .Description {
   width: 100%;
-  padding: 80px;
   font-size: 1.2rem;
+  margin-left: 20px;
 }
 
 .Description-q {
